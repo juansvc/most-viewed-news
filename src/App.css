@@ -28,3 +28,31 @@ h1{
 .container{
   width: 50%;
 }
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background: #084F8D;
+  background-image: none;
+  flex: 1;
+  padding: 0 .5em;
+  color: #fff;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.selectSeccion{
+  position: relative;
+  display: flex;
+  width: 38%;
+  height: 2.5em;
+  line-height: 3;
+  background: #084F8D;
+  overflow: hidden;
+  border-radius: .25em;
+}
