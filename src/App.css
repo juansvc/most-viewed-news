@@ -1,0 +1,30 @@
+h1{
+  color: #084F8D;
+  border-bottom: solid #a6cae3 1px;
+}
+
+.articulo{
+  border-bottom: solid gainsboro 1px;
+}
+
+.articulo-numero{
+  font-family: 'Pt-Serif',serif;
+  font-style: italic;
+  font-size: 4em;
+  color: gainsboro;
+  margin: 0.4em;
+  
+}
+
+.articulo-body{
+  width: 80%;
+}
+
+.articulo-numero,.articulo-body{
+  display: inline-block;
+  
+}
+
+.container{
+  width: 50%;
+}
