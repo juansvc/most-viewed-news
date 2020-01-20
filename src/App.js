@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "./App.css";
 
+// Autor : Juan Sebastian Vivanco Castro
+
 class App extends Component {
 
   state = {
@@ -81,6 +83,26 @@ class App extends Component {
                   <div className="articulo-body">
                     <h4 className="articulo-titulo">
                     {/* Título con link */}
+                      <a href={"https://" + todo.path} target="_blank">
+                        {todo.title}
+                      </a>
+                    </h4>
+                  </div>
+                </div>
+              );
+              {/* Filtro por sección desde lista desplegable */}
+            }else if (
+              todo.sections.includes(this.state.seccionActual) &&
+              todo.stats.article != 0 &&
+              this.state.i < 5
+            ) {
+              return (
+                <div className="articulo">
+                  <div className="articulo-numero">
+                    {(this.state.i = this.state.i + 1)}
+                  </div>
+                  <div className="articulo-body">
+                    <h4 className="articulo-titulo">
                       <a href={"https://" + todo.path} target="_blank">
                         {todo.title}
                       </a>
