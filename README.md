@@ -1,9 +1,6 @@
-Widget Coding Challenge Lo más leído para EL UNIVERSO.
+Widget most viewed on EL UNIVERSO news.
 
-## Autor Juan Sebastian Vivanco Castro
-## Lenguaje: React, CSS
-
-Ejecutar:
+Run:
 
 ### `yarn install`
 ### `yarn start`
